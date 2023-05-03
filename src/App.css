@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-size: 100px;
+
+}
+
+.acoes{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 280px;
+}
+
+.conteudo{
+  display: flex;
+  justify-content: center;
+}
+
+.listaEstante{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.avaliacoes{
+  margin-top: 50px;
+}
+
+.listaAvaliacaoes{
+  display: flex;
+}

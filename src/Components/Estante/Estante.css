@@ -1,0 +1,35 @@
+.main{
+    background-color: rgb(248, 247, 247);
+    margin: 0;
+    width: 150px;
+    height: 200px;
+}
+
+.cards{
+    width: 150px;
+    height: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.estrelas{
+    margin-top: -50px;
+}
+
+.txtDesc{
+    text-align: left;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1{
+    color: rgb(168, 11, 11);
+}
+
+p{
+    color:rgb(0, 0, 0)
+}

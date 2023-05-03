@@ -1,0 +1,17 @@
+#btnMenu {
+    border: 1px solid transparent ;
+    padding: 6px 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    cursor: pointer;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(221, 238, 238);
+    display: flex;
+    justify-content: center;    
+}
+
+.icone-botao{
+    margin-right: 20px;
+}

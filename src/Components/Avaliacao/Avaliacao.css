@@ -1,0 +1,18 @@
+.cardsAvaliacao{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    display: flex;
+}
+
+.avalicao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.desc{
+    font-size: 20px;
+}
