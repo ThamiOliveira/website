@@ -28,22 +28,17 @@ function App() {
           </div>
           <div className='listaEstante'>
             <Estante
-
               imagem={livro1}
             />
             <Estante
-
               imagem={livro2}
             />
             <Estante
-
               imagem={livro3}
             />
             <Estante
-
               imagem={livro4}
             />
-
 
           </div>
         </div>
