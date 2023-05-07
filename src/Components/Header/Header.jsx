@@ -13,7 +13,7 @@ function Header(props) {
             <div className="infosLeitura">
                 <div className="lidos">
                     <span>
-                        130
+                        {props.lidos}
                     </span>
                     <span>
                         lidos
@@ -21,7 +21,7 @@ function Header(props) {
                 </div>
                 <div className="vouLer">
                     <span>
-                        60
+                    {props.vouLer}
                     </span>
                     <span>
                         vou ler

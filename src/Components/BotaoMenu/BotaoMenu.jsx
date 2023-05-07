@@ -1,14 +1,19 @@
 import React from "react";
 import "./BotaoMenu.css";
+import { Link } from "react-router-dom";
 
 function BotaoMenu(props) {
     return (
-        <button id="btnMenu">
-            <div className="icone-botao">
-                {props.icone}
-            </div>
-            {props.nome}
-        </button>
+        <Link to={props.link}>
+            <button id="btnMenu" style={{ backgroundColor: props.color }}>
+                {props.icone &&
+                    <div className="icone-botao">
+                        {props.icone}
+                    </div>
+                }
+                {props.nome}
+            </button>
+        </Link>
     )
 }
 export default BotaoMenu;

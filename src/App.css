@@ -29,3 +29,7 @@
 .listaAvaliacaoes{
   display: flex;
 }
+
+.bodyt{
+  display: 'flex'
+}
